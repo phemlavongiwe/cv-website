@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .personalinfomation-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .personalinformation-form input, .personalinformation-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .personalinformation-form button {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .personalinformation-form button:hover {
+            background-color: #555;
+        }
+
+        .educatio-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .education-form input, .education-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .education-form button {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .education-form button:hover {
+            background-color: #555;
+        }
+        
+        .work-experience-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+         .work-experience-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .work-experience-form button {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .work-experience-form button:hover {
+            background-color: #555;
+        }
+        
+        .skills-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .skill-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .skills-form button {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .skills-form button:hover {
+            background-color: #555;
+        }
+        
+        .projects-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .projects-form input, .project-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .projects-form button {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .projects-form button:hover {
+            background-color: #555;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input, .project-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#introduction">Introduction</a>
+    <a href="#personal-info">Personal Information</a>
+    <a href="#education">Education</a>
+    <a href="#work-experience">Work Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="introduction" class="container">
+    <h2>Introduction</h2>
+    <p>Hello! I'm Mathebula P.V, a passionate sortware developer with a knack for web developer. Welcome to my portfolio where you can learn more about my background, experience, and skills.</p>
+</section>
+
+<section id="personal-info" class="container">
+    <h2>Personal Information</h2>
+    <form class="personalinformation-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="text" name="name" placeholder="locacion" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <button save="submit">Save Message</button>
+    </form>
+</section>
+
+<section id="education" class="container">
+    <h2>Education</h2>
+    <form class="education-form">
+    <input type="text" name="name" placeholder="high school name" required>
+    <textarea name="message" rows="1" placeholder="[Your Degree] - [Your University], [Year of Graduation]" required></textarea>
+    <button save="submit">Save Message</button>
+    </form>
+</section>
+
+<section id="work-experience" class="container">
+    <h2>Work Experience</h2>
+    <form class="work-experience-form">
+    <textarea name="message" rows="1" placeholder="[Your Job Title] at [Your Company], [Years]" required></textarea>
+    <textarea name="message" rows="3" placeholder="Description of your role and achievements" required></textarea>
+    <button save="submit">Save Message</button>
+    </form>
+</section>
+
+<section id="skills" class="container">
+    <h2>Skills</h2>
+    <form class="skills-form">
+       <textarea name="message" rows="1" placeholder="skills 1" required></textarea>
+       <textarea name="message" rows="1" placeholder="skills 2" required></textarea>
+       <button save="submit">Save Message</button>
+    </form>
+</section>
+
+<section id="projects" class="container">
+    <h2>Projects</h2>
+    <form class="projects-form">
+        <input type="text" name="name" placeholder=" projects name" required>
+        <textarea name="message" rows="5" placeholder="Description of the project and your role in it." required></textarea>
+        <button save="submitt"> save message</button>
+    </form>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+</body>
+</html>
